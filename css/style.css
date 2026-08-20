@@ -20,7 +20,11 @@
   font-family: "SutonnyMJ";
   src: local("SutonnyMJ");
 }
-
+@media print {
+      .menu {
+        display: none !important;
+      }
+    }
 /* ---------- Base / layout ---------- */
 body {
   font-family: "SolaimanLipi", adarshalipi, NikoshBAN, sans-serif;
